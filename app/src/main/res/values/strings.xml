@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Ուսանողի պրոֆիլ</string>
+
+    <string name="student_profile">Ուսանողի պրոֆիլ</string>
+
+    <string name="full_name">Անուն և ազգանուն</string>
+
+    <string name="email">Էլ․ փոստ</string>
+
+    <string name="course_news">Ստանալ դասընթացի նորություններ</string>
+
+    <string name="exam_reminders">Ստանալ քննության հիշեցումներ</string>
+
+    <string name="availability">ՀԱՍԱՆԵԼԻ / ԶԲԱՂՎԱԾ</string>
+
+    <string name="available">ՀԱՍԱՆԵԼԻ</string>
+
+    <string name="busy">ԶԲԱՂՎԱԾ</string>
+
+    <string name="education_degree">Կրթական աստիճան</string>
+
+    <string name="bachelor">Բակալավր</string>
+
+    <string name="master">Մագիստրոս</string>
+
+    <string name="postgraduate">Ասպիրանտ</string>
+
+    <string name="save_profile">ՊԱՀՊԱՆԵԼ ՊՐՈՖԻԼԸ</string>
+
+    <string name="result_not_saved">Տվյալները դեռ չեն պահպանվել</string>
+
+    <string name="open_help">ԲԱՑԵԼ ՕԳՆՈՒԹՅՈՒՆԸ</string>
+
+</resources>

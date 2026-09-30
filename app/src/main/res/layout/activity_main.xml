@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/screen_padding">
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/student_profile"
+            android:textColor="@color/title_color"
+            android:textSize="@dimen/title_text_size"
+            android:textStyle="bold"
+            android:layout_marginBottom="@dimen/section_spacing" />
+
+        <EditText
+            android:id="@+id/etFullName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/full_name"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress"
+            android:layout_marginBottom="@dimen/section_spacing" />
+
+        <CheckBox
+            android:id="@+id/cbCourseNews"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/course_news" />
+
+        <CheckBox
+            android:id="@+id/cbExamReminders"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/exam_reminders" />
+
+        <ToggleButton
+            android:id="@+id/toggleAvailability"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textOn="@string/available"
+            android:textOff="@string/busy"
+            android:layout_marginBottom="@dimen/section_spacing" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/education_degree"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/radioGroupEducation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/rbBachelor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bachelor" />
+
+            <RadioButton
+                android:id="@+id/rbMaster"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/master" />
+
+            <RadioButton
+                android:id="@+id/rbPostgraduate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/postgraduate" />
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/save_profile" />
+
+        <TextView
+            android:id="@+id/tvResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/result_not_saved"
+            android:textSize="18sp"
+            android:layout_marginTop="@dimen/section_spacing"
+            android:layout_marginBottom="@dimen/section_spacing" />
+
+        <Button
+            android:id="@+id/btnHelp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/open_help" />
+
+    </LinearLayout>
+
+</ScrollView>
